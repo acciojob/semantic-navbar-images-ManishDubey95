@@ -1,2 +1,29 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    width: 100vw;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 30px;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.multimedia{
+    margin-top: 30px;
+    text-align: center;
+}
+img{
+    width: 500px;
+    height: 400px;
+    margin-block: 20px;
+}
 /* Your CSS Code here. */
